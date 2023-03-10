@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario 📋</h1>
+    <form>
+        <label for="name">Nombre completo: </label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Correo electrónico: </label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" pattern="^(?=.[a-z])(?=.[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
+        <br>
+        <label for="password2">Confirmar contraseña: </label>
+        <input type="password" id="password2" required>
+        <br>
+        <label for="residencia">País de residencia: </label>
+        <select name="residencia">
+            <option>Chile</option>
+            <option>Argentina</option>
+            <option>Venezuela</option>
+            <option>Colombia</option>
+            <option>Peru</option>
+            <option>Otro</option>
+        </select>
+        <br>
+        <fieldset>
+            <label>Fecha de nacimiento:</label>
+        <select name="day" required>
+            <option>Día</option>
+            <option>1</option> 
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5...</option>
+            <option>31</option>   
+        </select>
+        <select name="month" required>
+            <option>Mes</option>
+            <option>Enero</option> 
+            <option>Febrero</option> 
+            <option>Marzo</option> 
+            <option>Abril...</option> 
+            <option>Diciembre</option>  
+        </select>
+        <select name="year" required>
+            <option>Año</option>
+            <option>2000</option>
+            <option>1999</option>
+            <option>1998</option>
+            <option>1997</option>
+            <option>1996...</option>
+            <option>1976</option>  
+        </select>
+    </fieldset>
+        <br>
+        <label for="gender">Género: </label>
+        <label for="female">Femenino </label>
+        <input type="radio" id="female" name="gender">
+        <label for="male">Masculino</label>
+        <input type="radio" id="male" name="gender">
+        <br>
+        <label for="rules">Acepto los términos y condiciones: </label>
+        <input type="checkbox" id="rules" required>
+    </form>
+    <button>Enviar</button>
+    
+</body>
+</html>
