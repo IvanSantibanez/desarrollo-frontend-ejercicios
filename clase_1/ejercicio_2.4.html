@@ -22,7 +22,7 @@
         <input type="password" id="password2" required>
         <br>
         <label for="residencia">País de residencia: </label>
-        <select name="residencia">
+        <select id="residencia">
             <option>Chile</option>
             <option>Argentina</option>
             <option>Venezuela</option>
@@ -34,34 +34,34 @@
         <fieldset>
             <label>Fecha de nacimiento:</label>
         <select name="day" required>
-            <option>Día</option>
-            <option>1</option> 
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5...</option>
-            <option>31</option>   
+            <option value="">Día</option>
+            <option value="1">1</option> 
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5...</option>
+            <option value="31">31</option>   
         </select>
         <select name="month" required>
-            <option>Mes</option>
-            <option>Enero</option> 
-            <option>Febrero</option> 
-            <option>Marzo</option> 
-            <option>Abril...</option> 
-            <option>Diciembre</option>  
+            <option value="">Mes</option>
+            <option value="enero">Enero</option> 
+            <option value="febrero">Febrero</option> 
+            <option value="marzo">Marzo</option> 
+            <option value="abril">Abril...</option> 
+            <option value="diciembre">Diciembre</option>  
         </select>
         <select name="year" required>
-            <option>Año</option>
-            <option>2000</option>
-            <option>1999</option>
-            <option>1998</option>
-            <option>1997</option>
-            <option>1996...</option>
-            <option>1976</option>  
+            <option value="">Año</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996...</option>
+            <option value="1976">1976</option>  
         </select>
     </fieldset>
         <br>
-        <label for="gender">Género: </label>
+        <label >Género: </label>
         <label for="female">Femenino </label>
         <input type="radio" id="female" name="gender">
         <label for="male">Masculino</label>
