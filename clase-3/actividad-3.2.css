@@ -59,7 +59,7 @@ table thead th {
    
 }
 
-table thead th span {
+table thead th span, table tbody td{
     text-align: center;
 }
 
