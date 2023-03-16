@@ -1,0 +1,74 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 920px;
+    
+}
+
+#titulo {
+    color: rgb(16, 16, 177);
+    width: 950px;
+}
+
+#imagen-vegetales {
+
+    width: 900px;
+    height: 300px;
+    border-style: ridge;
+    padding: 6px;
+    border-radius: 4px;
+    border-color: rgb(115, 115, 250);
+    border-width: 1px;
+    
+    
+}
+.caja-imagen {
+    border-style: ridge;
+    width: 920px;
+    border-radius: 4px;
+    border-color: rgb(115, 115, 250);
+    border-width: 1px;
+   
+}
+
+#parrafo-imagen span {
+    font-weight: bold;
+    color: rgb(27, 27, 212);
+}
+
+ol li, #titulo-tabla {
+    color: blue;
+}
+
+ol li span {
+    color: black;
+}
+
+table, th ,td  {
+      border: 1px solid rgb(120, 134, 255);
+      border-collapse: collapse;
+      padding: 20px;
+     
+}
+
+
+table thead th {
+    background-color: rgb(71, 71, 245);
+    border-color: rgb(71, 71, 245);
+    color: white;
+    text-align: center;
+   
+}
+
+table thead th span {
+    text-align: center;
+}
+
+table tbody th {
+    background-color: rgb(150, 178, 255);
+    text-align: left;
+    color: blue;
+}
+
+#nota-parrafo-1 span , #nota-parrafo-2 span{
+    font-weight: bold;
+}
