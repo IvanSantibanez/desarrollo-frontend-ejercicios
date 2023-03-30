@@ -1,0 +1,31 @@
+body {
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: 100px 400px 100px;
+    grid-template-areas:"na he he he"
+                        "na ar ar ar"
+                        "na as as as"
+                        "na fo fo fo"
+                        ;
+}
+
+header {
+    grid-area: he;
+}
+
+nav {
+    grid-area: na;
+}
+
+article {
+    grid-area: ar;
+}
+
+aside {
+    grid-area: as;
+}
+
+footer {
+    grid-area: fo;
+}
